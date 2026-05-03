@@ -78,6 +78,5 @@
   <text x="20" y="320" class="term">
     <tspan class="green bold">elma@tirana</tspan><tspan class="fg">:</tspan><tspan class="blue bold">~</tspan><tspan class="fg">$ </tspan><tspan class="orange">whoami</tspan>
   </text>
-  <text x="20" y="342" class="term fg">a generalist who'd rather learn the right tool than force the wrong one</text>
-  <rect x="708" y="331" width="9" height="14" class="fg cursor"/>
+  <rect x="220" y="310" width="9" height="14" class="fg cursor"/>
 </svg>
