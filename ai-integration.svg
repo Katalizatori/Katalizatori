@@ -38,21 +38,20 @@
   </text>
 
   <!-- markdown header -->
-  <text x="20" y="92" class="term sm yellow b"># How I work with AI</text>
+  <text x="20" y="92" class="term sm yellow b"># Working w/ AI</text>
   <line x1="20" x2="1080" y1="106" y2="106" stroke="#3c3836" stroke-width="1"/>
 
-  <!-- ===== PARAGRAPH 1 ===== -->
-  <text x="20" y="138" class="term sm fg">AI is a real collaborator now, and pretending otherwise is a waste of everyone's time. But a collaborator</text>
-  <text x="20" y="158" class="term sm fg">without a brief is just an expensive autocomplete. I run agents the way I run myself — give it a plan, give it</text>
-  <text x="20" y="178" class="term sm fg">tools, demand a report back, review the diff. <tspan class="dim it">Vibe-coding</tspan> is a slur for people who refuse to read the output.</text>
-  <text x="20" y="198" class="term sm fg">Claude Code, MCP servers, the API directly: I have used all three for real work, and the boring rule that beats</text>
-  <text x="20" y="218" class="term sm fg">every clever trick is the same one that beats junior developers — write the spec first.</text>
+<!-- ===== PARAGRAPH 1 ===== -->
+  <text x="20" y="138" class="term sm fg">My internship at a public institution proved that AI integration is inevitable. Watching seasoned devs</text>
+  <text x="20" y="158" class="term sm fg">agree so unanimously was eye-opening. I spend my time there building efficient agent workflows and</text>
+  <text x="20" y="178" class="term sm fg">learning the ticks and gaps these systems have. This is the single skill all juniors must adapt, lest</text>
+  <text x="20" y="198" class="term sm fg">their skillset get automated away. Understanding the "how" is the only way to ensure everything</text>
+  <text x="20" y="218" class="term sm fg">actually runs smoothly in a production environment.</text>
 
   <!-- ===== PARAGRAPH 2 ===== -->
-  <text x="20" y="254" class="term sm fg">I am a generalist on purpose, not by accident. Specialising too early is a way of asking the next ten years to</text>
-  <text x="20" y="274" class="term sm fg">look exactly like the last one, and the last one was Django. Final-year CS, full-stack, freelance — the labels</text>
-  <text x="20" y="294" class="term sm fg">are accurate, but they are not the point. The point is that I would rather learn the right tool for the problem</text>
-  <text x="20" y="314" class="term sm fg">than force the problem into the tool I already know. That is the actual job. Everything else is dotfiles.</text>
+  <text x="20" y="254" class="term sm fg">The field of AI is currently a relay race, where companies pass the baton to each other in a matter of</text>
+  <text x="20" y="274" class="term sm fg">months. The keen eye of a developer is needed to discern who will take the lead next, and how to</text>
+  <text x="20" y="294" class="term sm fg">leverage that momentum at an enterprise level.</text>
 
   <!-- footer rule + meta -->
   <line x1="20" x2="1080" y1="338" y2="338" stroke="#3c3836" stroke-width="1"/>
