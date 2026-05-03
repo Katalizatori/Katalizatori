@@ -4,98 +4,64 @@
 
 </div>
 
-```
-~/about ────────────────────────────────────────────────────────────
-```
+<br/>
 
-Full-stack developer based in Tirana, Albania. Final-year CS student at the **University of Tirana** (previously NYU Albania). I like clean architecture, readable code, and shipping things that actually work for the people using them.
 
-I'm a generalist by choice — I'd rather learn the right tool for the problem than force a problem into the tool I already know. Comfortable across the stack, happy to go deep on whatever a project needs.
+<div align="center">
 
-```
-~/now ──────────────────────────────────────────────────────────────
-```
+<img src="./lazyvim.svg" alt="LazyVim configuration with neo-tree and vsplit panes" width="100%" />
 
-- 🦾 Building agentic workflows with **Claude Code**
-- ⚙️ Studying enterprise-level task automation
-- ♿ Contributing to [**sentence-stepper**](https://github.com/Katalizatori/sentence-stepper) — an accessibility reading-rule extension for Firefox & Chrome. Currently adapting the same logic into a Calibre plugin.
+</div>
 
-```
-~/stack ────────────────────────────────────────────────────────────
-```
+<br/>
 
-**Languages**
 
-<p>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" width="36" height="36" />&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" width="36" height="36" />&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" width="36" height="36" />&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-original.svg" alt="Rust" width="36" height="36" />&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C" width="36" height="36" />
-</p>
+<sub>What I've shipped, what's in flight, and what's on deck — straight from `experience.org`.</sub>
 
-**Backend**
+<div align="center">
 
-<p>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" alt="Django" width="36" height="36" />&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" alt="Flask" width="36" height="36" />&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" width="36" height="36" />&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" alt="SQLite" width="36" height="36" />
-</p>
+<img src="./doom.svg" alt="Doom Emacs experience.org with agenda sidebar" width="100%" />
 
-**Frontend**
+</div>
 
-<p>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" alt="Vue" width="36" height="36" />&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" width="36" height="36" />&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" width="36" height="36" />&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" width="36" height="36" />&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind" width="36" height="36" />
-</p>
+Repos referenced above:
 
-**Tooling**
+- [**Christian Fundraising Foundation**](https://github.com/Katalizatori/christian-fundraising-foundation) — production Django site for a real nonprofit
+- [**AI Moderation System**](https://github.com/Katalizatori/AI-moderation-system) — Django REST + Vue 3 review moderation pipeline
+- [**sentence-stepper**](https://github.com/Katalizatori/sentence-stepper) — accessibility browser extension I contribute to
 
-<p>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" width="36" height="36" />&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" width="36" height="36" />&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/neovim/neovim-original.svg" alt="Neovim" width="36" height="36" />&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Linux" width="36" height="36" />
-</p>
+<br/>
 
-> Picking up next: **Spring Boot**, **Angular**, cloud deployment.
 
-```
-~/projects ─────────────────────────────────────────────────────────
-```
+<sub>How I work with AI — agentic, tool-heavy, and structured around clear plans before any code gets written.</sub>
 
-| Project | What it does | Stack |
-| :--- | :--- | :--- |
-| [**Christian Fundraising Foundation**](https://github.com/Katalizatori/christian-fundraising-foundation) | Production Django site for a real nonprofit — blog, Mailchimp integration, deployed on Render | `Django` `Tailwind` `PostgreSQL` |
-| [**AI Moderation System**](https://github.com/Katalizatori/AI-moderation-system) | Full-stack app that auto-moderates user reviews via the OpenAI API | `Django REST` `Vue 3` `Python` |
-| [**sentence-stepper**](https://github.com/Katalizatori/sentence-stepper) | Accessibility browser extension I contribute to (Firefox & Chrome) | `JavaScript` |
+<div align="center">
 
-Also studying [calibre](https://github.com/Katalizatori/calibre) and [lute-v3](https://github.com/Katalizatori/lute-v3) closely — projects I want to contribute to as I grow.
+<img src="./claude.svg" alt="Claude Code session showing agentic workflow" width="100%" />
 
-```
-~/locale ───────────────────────────────────────────────────────────
-```
+</div>
 
-```
-sq_AL  ████████████████████  Albanian (native)
-en_US  ███████████████████░  English  · TOEFL 111 (C1)
-fr_FR  ██████████████░░░░░░  French   · B2
-de_DE  ████████░░░░░░░░░░░░  German   · A2
-```
+<br/>
 
-```
-~/contact ──────────────────────────────────────────────────────────
-```
 
-```
-elma@tirana:~$ contact --me
-```
+<div align="center">
 
-📫 **[elguga175@gmail.com](mailto:elguga175@gmail.com)**
-💼 Open to freelance — [rates & services](YOUR_NOTION_LINK_HERE)
+<img src="./ai-integration.svg" alt="cat ai-integration.md — how I work with AI" width="100%" />
 
-<sub>`exit 0`</sub>
+</div>
+
+<br/>
+
+
+
+<table>
+<tr>
+<td>📫</td><td><a href="mailto:elguga175@gmail.com"><b>elguga175@gmail.com</b></a></td>
+</tr>
+<tr>
+<td>🌍</td><td>Tirana, Albania &nbsp;·&nbsp; <code>sq</code> · <code>en (C1)</code> · <code>fr (B2)</code> · <code>de (A2)</code></td>
+</tr>
+<tr>
+<td>💼</td><td>Open to freelance — <a href="YOUR_NOTION_LINK_HERE">rates &amp; services</a></td>
+</tr>
+</table>
