@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 760" role="img" aria-label="Claude Code terminal session showing agentic portfolio build workflow">
+  <defs>
+    <style>
+      .term { font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', 'Source Code Pro', 'Consolas', 'Menlo', monospace; font-size: 13px; }
+      .sm   { font-size: 12px; }
+      .xs   { font-size: 11px; }
+      .b    { font-weight: 700; }
+      .it   { font-style: italic; }
+
+      /* anthropic warm palette */
+      .ink     { fill: #3d3929; }
+      .dim     { fill: #6b6354; }
+      .faint   { fill: #9c9485; }
+      .clay    { fill: #cc785c; }
+      .clay-d  { fill: #a85a3f; }
+      .moss    { fill: #8a9a5b; }
+      .gold    { fill: #c89b3c; }
+      .rust    { fill: #b85c38; }
+      .slate   { fill: #5c6970; }
+      .cream   { fill: #f5f1eb; }
+
+      @keyframes blink { 50% { opacity: 0; } }
+      .cursor { animation: blink 1.05s steps(2) infinite; }
+    </style>
+  </defs>
+
+  <!-- terminal window -->
+  <rect width="1100" height="760" rx="10" fill="#f5f1eb"/>
+
+  <!-- titlebar -->
+  <rect width="1100" height="28" rx="10" fill="#e8e1d4"/>
+  <rect y="20" width="1100" height="8" fill="#e8e1d4"/>
+  <circle cx="18" cy="14" r="6" fill="#cc785c"/>
+  <circle cx="40" cy="14" r="6" fill="#c89b3c"/>
+  <circle cx="62" cy="14" r="6" fill="#8a9a5b"/>
+  <text x="550" y="18" text-anchor="middle" class="term faint xs">elma@tirana: ~/Katalizatori — claude</text>
+
+  <!-- tiny header strip showing claude code branding -->
+  <rect x="0" y="28" width="1100" height="32" fill="#ede6d8"/>
+  <text x="20" y="48" class="term sm">
+    <tspan class="clay-d b">✻</tspan> <tspan class="ink b">Claude Code</tspan> <tspan class="faint">v2.0</tspan>  <tspan class="faint">·</tspan>  <tspan class="dim">model:</tspan> <tspan class="ink">claude-opus-4-7</tspan>  <tspan class="faint">·</tspan>  <tspan class="dim">cwd:</tspan> <tspan class="ink">~/Katalizatori</tspan>
+  </text>
+  <text x="1080" y="48" text-anchor="end" class="term sm moss">● ready</text>
+
+  <!-- ============ USER PROMPT 1 ============ -->
+  <text x="20" y="88" class="term">
+    <tspan class="clay b">&gt;</tspan> <tspan class="ink">restructure my profile README to feel like a real terminal environment.</tspan>
+  </text>
+  <text x="36" y="106" class="term ink">use the four SVGs in this repo. write the markdown that wraps around them.</text>
+
+  <!-- ============ AGENT THINKING ============ -->
+  <text x="20" y="138" class="term sm">
+    <tspan class="faint it">✻ Thinking…</tspan>
+  </text>
+  <text x="36" y="156" class="term sm dim it">  Need to check what's in the repo first, then read each SVG to understand</text>
+  <text x="36" y="172" class="term sm dim it">  what the section headers should be. Building a todo list.</text>
+
+  <!-- ============ TodoWrite ============ -->
+  <rect x="20" y="190" width="1060" height="118" rx="6" fill="#ede6d8" stroke="#d4ccb9" stroke-width="1"/>
+  <text x="34" y="210" class="term sm">
+    <tspan class="clay-d b">●  TodoWrite</tspan>
+  </text>
+  <text x="44" y="232" class="term sm"><tspan class="moss b">[x]</tspan> <tspan class="ink">List repo files</tspan></text>
+  <text x="44" y="252" class="term sm"><tspan class="moss b">[x]</tspan> <tspan class="ink">Read banner.svg, lazyvim.svg, doom.svg, claude.svg</tspan></text>
+  <text x="44" y="272" class="term sm"><tspan class="clay b">[~]</tspan> <tspan class="ink">Draft README.md with section dividers between SVGs</tspan></text>
+  <text x="44" y="292" class="term sm"><tspan class="faint">[ ]</tspan> <tspan class="dim">Verify markdown renders correctly on GitHub</tspan></text>
+
+  <!-- ============ Bash tool call ============ -->
+  <text x="20" y="328" class="term sm">
+    <tspan class="clay-d b">●  Bash</tspan> <tspan class="faint">(ls -la *.svg)</tspan>
+  </text>
+  <text x="36" y="348" class="term sm dim">  └─ banner.svg   8.2K</text>
+  <text x="36" y="364" class="term sm dim">     lazyvim.svg  12.1K</text>
+  <text x="36" y="380" class="term sm dim">     doom.svg     14.8K</text>
+  <text x="36" y="396" class="term sm dim">     claude.svg   13.4K</text>
+
+  <!-- ============ Grep tool call ============ -->
+  <text x="20" y="424" class="term sm">
+    <tspan class="clay-d b">●  Grep</tspan> <tspan class="faint">(pattern: "section", glob: "*.md")</tspan>
+  </text>
+  <text x="36" y="444" class="term sm dim">  └─ no matches — README.md needs to be written from scratch</text>
+
+  <!-- ============ Edit tool call ============ -->
+  <text x="20" y="472" class="term sm">
+    <tspan class="clay-d b">●  Write</tspan> <tspan class="faint">(README.md)</tspan>
+  </text>
+  <text x="36" y="492" class="term sm dim">  └─ +47 lines · 4 embedded SVGs · 6 section dividers</text>
+
+  <!-- ============ AGENT FINAL MESSAGE ============ -->
+  <rect x="20" y="510" width="1060" height="146" rx="6" fill="#fff" stroke="#e8e1d4" stroke-width="1"/>
+  <text x="34" y="532" class="term sm">
+    <tspan class="clay-d b">✻</tspan> <tspan class="ink b">Done.</tspan> <tspan class="dim">Wrote README.md with the four terminals laid out vertically,</tspan>
+  </text>
+  <text x="34" y="550" class="term sm dim">  separated by ASCII path-style dividers (~/about, ~/stack, ~/work, ~/now).</text>
+  <text x="34" y="570" class="term sm dim">  Each SVG is referenced by relative path so it ships with the repo.</text>
+  <text x="34" y="596" class="term sm">
+    <tspan class="ink b">Notes:</tspan>
+  </text>
+  <text x="34" y="614" class="term sm dim">    • banner.svg goes first — neofetch establishes identity</text>
+  <text x="34" y="632" class="term sm dim">    • lazyvim → doom → claude reads as: <tspan class="ink it">how I code</tspan>, <tspan class="ink it">what I've shipped</tspan>, <tspan class="ink it">how I work with AI</tspan></text>
+  <text x="34" y="650" class="term sm dim">    • added a subtle Notion link in the contact section as requested</text>
+
+  <!-- ============ NEW PROMPT (cursor) ============ -->
+  <text x="20" y="690" class="term">
+    <tspan class="clay b">&gt;</tspan> <tspan class="ink cursor">█</tspan>
+  </text>
+
+  <!-- ============ STATUS STRIP ============ -->
+  <rect x="0" y="722" width="1100" height="38" fill="#ede6d8"/>
+  <text x="20" y="742" class="term sm">
+    <tspan class="moss b">●</tspan> <tspan class="dim">3 tools used</tspan>  <tspan class="faint">·</tspan>  <tspan class="dim">tokens:</tspan> <tspan class="ink">12.4k / 200k</tspan>  <tspan class="faint">·</tspan>  <tspan class="dim">cost:</tspan> <tspan class="ink">$0.18</tspan>  <tspan class="faint">·</tspan>  <tspan class="dim">elapsed:</tspan> <tspan class="ink">42s</tspan>
+  </text>
+  <text x="1080" y="742" text-anchor="end" class="term sm">
+    <tspan class="dim">enter to send</tspan>
+  </text>
+</svg>

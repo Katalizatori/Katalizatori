@@ -1,0 +1,245 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 580" role="img" aria-label="LazyVim with neo-tree and three vsplit panes showing frontend, backend, and tooling configs">
+  <defs>
+    <style>
+      .term { font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', 'Source Code Pro', 'Consolas', 'Menlo', monospace; font-size: 12px; }
+      .sm   { font-size: 11px; }
+      .xs   { font-size: 10px; }
+      .b    { font-weight: 700; }
+
+      /* gruvbox dark */
+      .fg     { fill: #ebdbb2; }
+      .dim    { fill: #a89984; }
+      .gray   { fill: #7c6f64; }
+      .red    { fill: #fb4934; }
+      .green  { fill: #b8bb26; }
+      .yellow { fill: #fabd2f; }
+      .blue   { fill: #83a598; }
+      .purple { fill: #d3869b; }
+      .aqua   { fill: #8ec07b; }
+      .orange { fill: #fe8019; }
+      .bg2    { fill: #3c3836; }
+
+      @keyframes blink { 50% { opacity: 0; } }
+      .cursor { animation: blink 1.05s steps(2) infinite; }
+    </style>
+  </defs>
+
+  <!-- terminal window -->
+  <rect width="1100" height="580" rx="10" fill="#282828"/>
+
+  <!-- titlebar -->
+  <rect width="1100" height="28" rx="10" fill="#1d2021"/>
+  <rect y="20" width="1100" height="8" fill="#1d2021"/>
+  <circle cx="18" cy="14" r="6" fill="#fb4934"/>
+  <circle cx="40" cy="14" r="6" fill="#fabd2f"/>
+  <circle cx="62" cy="14" r="6" fill="#b8bb26"/>
+  <text x="550" y="18" text-anchor="middle" class="term gray xs">elma@tirana: ~/.config/nvim — NVIM</text>
+
+  <!-- ============ NEO-TREE (left sidebar) ============ -->
+  <rect x="0" y="28" width="200" height="528" fill="#1d2021"/>
+  <line x1="200" y1="28" x2="200" y2="556" stroke="#3c3836" stroke-width="1"/>
+
+  <!-- neo-tree header -->
+  <text x="14" y="50" class="term sm dim">Neovim</text>
+  <text x="14" y="68" class="term sm gray">────────────────</text>
+
+  <!-- tree -->
+  <g class="term sm">
+    <text x="14" y="90"><tspan class="yellow b">  ~/elma</tspan></text>
+    <text x="14" y="108"><tspan class="blue">▾  frontend/</tspan></text>
+    <text x="22" y="126"><tspan class="aqua">  vue.lua</tspan></text>
+    <text x="22" y="144"><tspan class="aqua">  react.lua</tspan></text>
+    <text x="22" y="162"><tspan class="aqua">  tailwind.lua</tspan></text>
+    <text x="14" y="180"><tspan class="blue">▾  backend/</tspan></text>
+    <text x="22" y="198"><tspan class="aqua">  django.lua</tspan></text>
+    <text x="22" y="216"><tspan class="aqua">  flask.lua</tspan></text>
+    <text x="22" y="234"><tspan class="aqua">  java.lua</tspan></text>
+    <text x="22" y="252"><tspan class="aqua">  rust.lua</tspan></text>
+    <text x="14" y="270"><tspan class="blue">▾  tooling/</tspan></text>
+    <text x="22" y="288"><tspan class="aqua">  git.lua</tspan></text>
+    <text x="22" y="306"><tspan class="aqua">  docker.lua</tspan></text>
+    <text x="22" y="324"><tspan class="aqua">  postgres.lua</tspan></text>
+    <text x="14" y="342"><tspan class="gray">▸  data/</tspan></text>
+    <text x="14" y="360"><tspan class="gray">▸  scripts/</tspan></text>
+    <text x="14" y="378"><tspan class="dim">  README.md</tspan></text>
+    <text x="14" y="396"><tspan class="dim">  init.lua</tspan></text>
+    <text x="14" y="414"><tspan class="dim">  lazy-lock.json</tspan></text>
+  </g>
+
+  <!-- ============ VSPLIT 1: FRONTEND ============ -->
+  <!-- buffer tab -->
+  <rect x="200" y="28" width="300" height="22" fill="#3c3836"/>
+  <text x="214" y="44" class="term sm yellow b">  frontend.lua</text>
+  <line x1="500" y1="28" x2="500" y2="556" stroke="#3c3836" stroke-width="1"/>
+
+  <!-- gutter -->
+  <g class="term sm gray">
+    <text x="208" y="74">1</text>
+    <text x="208" y="92">2</text>
+    <text x="208" y="110">3</text>
+    <text x="208" y="128">4</text>
+    <text x="208" y="146">5</text>
+    <text x="208" y="164">6</text>
+    <text x="208" y="182">7</text>
+    <text x="208" y="200">8</text>
+    <text x="208" y="218">9</text>
+    <text x="204" y="236">10</text>
+    <text x="204" y="254">11</text>
+    <text x="204" y="272">12</text>
+    <text x="204" y="290">13</text>
+    <text x="204" y="308">14</text>
+    <text x="204" y="326">15</text>
+    <text x="204" y="344">16</text>
+    <text x="204" y="362">17</text>
+    <text x="204" y="380">18</text>
+    <text x="204" y="398">19</text>
+    <text x="204" y="416">20</text>
+  </g>
+
+  <!-- code -->
+  <g class="term sm">
+    <text x="226" y="74"><tspan class="purple">return</tspan> <tspan class="fg">{</tspan></text>
+    <text x="234" y="92"><tspan class="aqua">frameworks</tspan> <tspan class="fg">= {</tspan></text>
+    <text x="242" y="110"><tspan class="green">"Vue 3"</tspan><tspan class="fg">,</tspan></text>
+    <text x="242" y="128"><tspan class="green">"React"</tspan><tspan class="fg">,</tspan></text>
+    <text x="242" y="146"><tspan class="green">"Tailwind"</tspan><tspan class="fg">,</tspan></text>
+    <text x="234" y="164"><tspan class="fg">},</tspan></text>
+    <text x="234" y="182"><tspan class="aqua">styling</tspan> <tspan class="fg">= {</tspan></text>
+    <text x="242" y="200"><tspan class="green">"HTML5"</tspan><tspan class="fg">,</tspan></text>
+    <text x="242" y="218"><tspan class="green">"CSS3"</tspan><tspan class="fg">,</tspan></text>
+    <text x="242" y="236"><tspan class="green">"Tailwind"</tspan><tspan class="fg">,</tspan></text>
+    <text x="234" y="254"><tspan class="fg">},</tspan></text>
+    <text x="234" y="272"><tspan class="gray">-- TODO: fill in</tspan></text>
+    <text x="234" y="290"><tspan class="aqua">notes</tspan> <tspan class="fg">= [[</tspan></text>
+    <text x="234" y="308"><tspan class="dim">  Vue is my daily driver.</tspan></text>
+    <text x="234" y="326"><tspan class="dim">  Comfortable in React for</tspan></text>
+    <text x="234" y="344"><tspan class="dim">  component-heavy work.</tspan></text>
+    <text x="234" y="362"><tspan class="fg">]]</tspan><tspan class="fg">,</tspan></text>
+    <text x="226" y="380"><tspan class="fg">}</tspan></text>
+  </g>
+
+  <!-- ============ VSPLIT 2: BACKEND ============ -->
+  <!-- buffer tab -->
+  <rect x="500" y="28" width="300" height="22" fill="#3c3836"/>
+  <text x="514" y="44" class="term sm yellow b">  backend.lua</text>
+  <line x1="800" y1="28" x2="800" y2="556" stroke="#3c3836" stroke-width="1"/>
+
+  <!-- gutter -->
+  <g class="term sm gray">
+    <text x="508" y="74">1</text>
+    <text x="508" y="92">2</text>
+    <text x="508" y="110">3</text>
+    <text x="508" y="128">4</text>
+    <text x="508" y="146">5</text>
+    <text x="508" y="164">6</text>
+    <text x="508" y="182">7</text>
+    <text x="508" y="200">8</text>
+    <text x="508" y="218">9</text>
+    <text x="504" y="236">10</text>
+    <text x="504" y="254">11</text>
+    <text x="504" y="272">12</text>
+    <text x="504" y="290">13</text>
+    <text x="504" y="308">14</text>
+    <text x="504" y="326">15</text>
+    <text x="504" y="344">16</text>
+    <text x="504" y="362">17</text>
+    <text x="504" y="380">18</text>
+    <text x="504" y="398">19</text>
+    <text x="504" y="416">20</text>
+  </g>
+
+  <!-- code -->
+  <g class="term sm">
+    <text x="526" y="74"><tspan class="purple">return</tspan> <tspan class="fg">{</tspan></text>
+    <text x="534" y="92"><tspan class="aqua">languages</tspan> <tspan class="fg">= {</tspan></text>
+    <text x="542" y="110"><tspan class="green">"Python"</tspan><tspan class="fg">,</tspan></text>
+    <text x="542" y="128"><tspan class="green">"Java"</tspan><tspan class="fg">,</tspan></text>
+    <text x="542" y="146"><tspan class="green">"Rust"</tspan><tspan class="fg">,</tspan></text>
+    <text x="542" y="164"><tspan class="green">"C"</tspan><tspan class="fg">,</tspan></text>
+    <text x="534" y="182"><tspan class="fg">},</tspan></text>
+    <text x="534" y="200"><tspan class="aqua">frameworks</tspan> <tspan class="fg">= {</tspan></text>
+    <text x="542" y="218"><tspan class="green">"Django"</tspan><tspan class="fg">,</tspan></text>
+    <text x="542" y="236"><tspan class="green">"Django REST"</tspan><tspan class="fg">,</tspan></text>
+    <text x="542" y="254"><tspan class="green">"Flask"</tspan><tspan class="fg">,</tspan></text>
+    <text x="534" y="272"><tspan class="fg">},</tspan></text>
+    <text x="534" y="290"><tspan class="gray">-- TODO: fill in</tspan></text>
+    <text x="534" y="308"><tspan class="aqua">notes</tspan> <tspan class="fg">= [[</tspan></text>
+    <text x="534" y="326"><tspan class="dim">  Django pays the bills.</tspan></text>
+    <text x="534" y="344"><tspan class="dim">  Java for school, Rust</tspan></text>
+    <text x="534" y="362"><tspan class="dim">  for fun.</tspan></text>
+    <text x="534" y="380"><tspan class="fg">]]</tspan><tspan class="fg">,</tspan></text>
+    <text x="526" y="398"><tspan class="fg">}</tspan></text>
+  </g>
+
+  <!-- ============ VSPLIT 3: TOOLING ============ -->
+  <!-- buffer tab -->
+  <rect x="800" y="28" width="300" height="22" fill="#504945"/>
+  <text x="814" y="44" class="term sm yellow b">  tooling.lua</text>
+
+  <!-- gutter -->
+  <g class="term sm gray">
+    <text x="808" y="74">1</text>
+    <text x="808" y="92">2</text>
+    <text x="808" y="110">3</text>
+    <text x="808" y="128">4</text>
+    <text x="808" y="146">5</text>
+    <text x="808" y="164">6</text>
+    <text x="808" y="182">7</text>
+    <text x="808" y="200">8</text>
+    <text x="808" y="218">9</text>
+    <text x="804" y="236">10</text>
+    <text x="804" y="254">11</text>
+    <text x="804" y="272">12</text>
+    <text x="804" y="290">13</text>
+    <text x="804" y="308">14</text>
+    <text x="804" y="326">15</text>
+    <text x="804" y="344">16</text>
+    <text x="804" y="362">17</text>
+    <text x="804" y="380">18</text>
+    <text x="804" y="398">19</text>
+    <text x="804" y="416">20</text>
+  </g>
+
+  <!-- code -->
+  <g class="term sm">
+    <text x="826" y="74"><tspan class="purple">return</tspan> <tspan class="fg">{</tspan></text>
+    <text x="834" y="92"><tspan class="aqua">vcs</tspan> <tspan class="fg">= {</tspan> <tspan class="green">"git"</tspan><tspan class="fg">,</tspan> <tspan class="green">"GitHub"</tspan> <tspan class="fg">},</tspan></text>
+    <text x="834" y="110"><tspan class="aqua">db</tspan> <tspan class="fg">= {</tspan></text>
+    <text x="842" y="128"><tspan class="green">"PostgreSQL"</tspan><tspan class="fg">,</tspan></text>
+    <text x="842" y="146"><tspan class="green">"SQLite"</tspan><tspan class="fg">,</tspan></text>
+    <text x="834" y="164"><tspan class="fg">},</tspan></text>
+    <text x="834" y="182"><tspan class="aqua">os</tspan> <tspan class="fg">= {</tspan></text>
+    <text x="842" y="200"><tspan class="green">"Debian"</tspan><tspan class="fg">,</tspan></text>
+    <text x="842" y="218"><tspan class="green">"Kali"</tspan><tspan class="fg">,</tspan></text>
+    <text x="842" y="236"><tspan class="green">"Windows"</tspan><tspan class="fg">,</tspan></text>
+    <text x="834" y="254"><tspan class="fg">},</tspan></text>
+    <text x="834" y="272"><tspan class="aqua">editor</tspan> <tspan class="fg">= {</tspan> <tspan class="green">"nvim"</tspan> <tspan class="fg">},</tspan></text>
+    <text x="834" y="290"><tspan class="gray">-- TODO: fill in</tspan></text>
+    <text x="834" y="308"><tspan class="aqua">notes</tspan> <tspan class="fg">= [[</tspan></text>
+    <text x="834" y="326"><tspan class="dim">  Lazy.nvim, gruvbox,</tspan></text>
+    <text x="834" y="344"><tspan class="dim">  telescope. The usual</tspan></text>
+    <text x="834" y="362"><tspan class="dim">  suspects.</tspan></text>
+    <text x="834" y="380"><tspan class="fg">]]</tspan><tspan class="fg">,</tspan></text>
+    <text x="826" y="398"><tspan class="fg">}</tspan><tspan class="fg cursor">█</tspan></text>
+  </g>
+
+  <!-- ============ STATUSLINE (lualine-ish) ============ -->
+  <rect x="0" y="528" width="1100" height="22" fill="#3c3836"/>
+  <!-- mode -->
+  <rect x="0" y="528" width="60" height="22" fill="#b8bb26"/>
+  <text x="30" y="544" text-anchor="middle" class="term sm b" fill="#282828">NORMAL</text>
+  <!-- branch -->
+  <rect x="60" y="528" width="130" height="22" fill="#504945"/>
+  <text x="68" y="544" class="term sm fg"> main</text>
+  <!-- file -->
+  <text x="200" y="544" class="term sm dim">tooling.lua</text>
+  <!-- right side: position -->
+  <rect x="980" y="528" width="60" height="22" fill="#504945"/>
+  <text x="1010" y="544" text-anchor="middle" class="term sm fg">Lua</text>
+  <rect x="1040" y="528" width="60" height="22" fill="#fabd2f"/>
+  <text x="1070" y="544" text-anchor="middle" class="term sm b" fill="#282828">19:1</text>
+
+  <!-- ============ COMMAND LINE ============ -->
+  <text x="10" y="572" class="term sm fg">:</text>
+  <text x="20" y="572" class="term sm fg">e backend.lua</text>
+</svg>
