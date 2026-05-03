@@ -15,20 +15,11 @@
 
 <br/>
 
-
-<sub>What I've shipped, what's in flight, and what's on deck — straight from `experience.org`.</sub>
-
 <div align="center">
 
 <img src="./doom.svg" alt="Doom Emacs experience.org with agenda sidebar" width="100%" />
 
 </div>
-
-Repos referenced above:
-
-- [**Christian Fundraising Foundation**](https://github.com/Katalizatori/christian-fundraising-foundation) — production Django site for a real nonprofit
-- [**AI Moderation System**](https://github.com/Katalizatori/AI-moderation-system) — Django REST + Vue 3 review moderation pipeline
-- [**sentence-stepper**](https://github.com/Katalizatori/sentence-stepper) — accessibility browser extension I contribute to
 
 <br/>
 
