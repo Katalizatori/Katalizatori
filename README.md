@@ -33,8 +33,6 @@ Repos referenced above:
 <br/>
 
 
-<sub>How I work with AI — agentic, tool-heavy, and structured around clear plans before any code gets written.</sub>
-
 <div align="center">
 
 <img src="./claude.svg" alt="Claude Code session showing agentic workflow" width="100%" />
