@@ -33,13 +33,6 @@
 <br/>
 
 
-<div align="center">
-
-<img src="./ai-integration.svg" alt="cat ai-integration.md — how I work with AI" width="100%" />
-
-</div>
-
-<br/>
 
 
 
