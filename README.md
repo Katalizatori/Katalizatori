@@ -24,15 +24,6 @@
 <br/>
 
 
-<div align="center">
-
-<img src="./claude.svg" alt="Claude Code session showing agentic workflow" width="100%" />
-
-</div>
-
-<br/>
-
-
 
 
 
