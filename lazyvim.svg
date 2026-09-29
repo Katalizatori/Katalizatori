@@ -107,8 +107,7 @@
     <text x="234" y="182"><tspan class="aqua">styling</tspan> <tspan class="fg">= {</tspan></text>
     <text x="242" y="200"><tspan class="green">"HTML5"</tspan><tspan class="fg">,</tspan></text>
     <text x="242" y="218"><tspan class="green">"CSS3"</tspan><tspan class="fg">,</tspan></text>
-    <text x="242" y="236"><tspan class="green">"Tailwind"</tspan><tspan class="fg">,</tspan></text>
-    <text x="234" y="254"><tspan class="fg">},</tspan></text>
+    <text x="234" y="236"><tspan class="fg">},</tspan></text>
     <text x="234" y="272"><tspan class="gray">-- TODO: fill in</tspan></text>
     <text x="234" y="290"><tspan class="aqua">notes</tspan> <tspan class="fg">= [[</tspan></text>
     <text x="234" y="308"><tspan class="dim">  Vue is my daily driver.</tspan></text>
